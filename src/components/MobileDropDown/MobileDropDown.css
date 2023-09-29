@@ -1,0 +1,10 @@
+.mobile-drop-down-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.mobile-drop-down-title img{
+    width: 12px;
+    height: 8px;
+}

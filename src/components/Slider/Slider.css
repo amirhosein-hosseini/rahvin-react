@@ -1,0 +1,33 @@
+.slick-slider{
+    padding-bottom: 100px;
+}
+.slick-dots{
+    padding-bottom: 60px;
+}
+.slick-dots li button::before{
+    font-size: 10px;
+}
+
+.slick-slide > div {
+    margin: 0 40px;
+  }
+  .slick-list {
+    margin: 0 -40px;
+  }
+
+  /* .slick-slider {
+    direction: rtl;
+  }
+  
+  .slick-list {
+    direction: ltr;
+  } */
+
+
+@media only screen and (max-width:1024px){
+  .slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

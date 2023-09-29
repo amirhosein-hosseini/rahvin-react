@@ -1,0 +1,22 @@
+.blue-button{
+    background: #19A3A6;
+    border-radius: 10px;
+    padding: 15px 65px;
+    border: none;
+    font-family: "ex-bold";
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid #19A3A6;
+}
+.blue-button:hover{
+    background: transparent;
+    color: #19A3A6;
+    border: 1px solid #19A3A6;
+}
+@media only screen and (max-width:768px){
+    .blue-button{
+        font-size: 21px;
+    }
+}

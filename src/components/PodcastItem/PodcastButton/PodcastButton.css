@@ -1,0 +1,50 @@
+.podcastbutton{
+    border: none;
+    border-radius: 10px;
+    font-family: "ex-bold";
+    font-size: 15px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.podcastbutton.aparat{
+    background: #FF2BCE;
+    border: 1px solid #FF2BCE;
+    transition: 0.3s;
+}
+.podcastbutton.aparat:hover{
+    background: transparent;
+    color: #FF2BCE;
+}
+.podcastbutton.castbox{
+    background: #FFA04E;
+    border: 1px solid #FFA04E;
+    transition: 0.3s;
+}
+.podcastbutton.castbox:hover{
+    background: transparent;
+    color: #FFA04E;
+}
+.podcastbutton.youtube{
+    background: #FF3D3D;
+    border: 1px solid #FF3D3D;
+    transition: 0.3s;
+}
+.podcastbutton.youtube:hover{
+    background: transparent;
+    color: #FF3D3D;
+}
+.podcastbutton.instagram{
+    background: #6D32B0;
+    border: 1px solid #6D32B0;
+    transition: 0.3s;
+}
+.podcastbutton.instagram:hover{
+    background: transparent;
+    color: #6D32B0;
+}
+@media only screen and (max-width:768px){
+    .podcastbutton{
+        width: 100%;
+    }
+}
